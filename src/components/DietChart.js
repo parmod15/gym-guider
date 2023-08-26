@@ -27,17 +27,19 @@ const DietChart = () => {
         {/*  SECOND CHART FROM BMI LESSER THAN 18.5 */}
 
         <div className="w-3/12  hover:opacity-70 transition-opacity duration-300 ">
-          <h1 className=" text-center text-xl font-bold">
-            Health weight Range
-          </h1>
-          <img
-            alt="skinny.png"
-            src="https://img.freepik.com/free-photo/portrait-confident-strong-male-bodybuilder_171337-4565.jpg?size=626&ext=jpg"
-          ></img>
-          <button className="bg-white text-blue-400 font-bold py-2 px-4">
-            {" "}
-            Know More
-          </button>
+          <Link to={"/HealthyWeight"}>
+            <h1 className=" text-center text-xl font-bold">
+              Health weight Range
+            </h1>
+            <img
+              alt="skinny.png"
+              src="https://img.freepik.com/free-photo/portrait-confident-strong-male-bodybuilder_171337-4565.jpg?size=626&ext=jpg"
+            ></img>
+            <button className="bg-white text-blue-400 font-bold py-2 px-4">
+              {" "}
+              Know More
+            </button>
+          </Link>
         </div>
         {/*  THIRD CHART FROM BMI LESSER THAN 18.5 */}
 
