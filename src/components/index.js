@@ -5,6 +5,7 @@ import Body from "./Body";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import UnderWeight from "./UnderWeight";
 import HealthyWeight from "./HealthWeight";
+import OverWeight from "./OverWeight";
 
 const AppLayout = () => {
   return (
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/HealthyWeight",
         element: <HealthyWeight />,
+      },
+      {
+        path: "/OverWeight",
+        element: <OverWeight />,
       },
     ],
   },

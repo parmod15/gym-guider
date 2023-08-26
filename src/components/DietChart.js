@@ -6,7 +6,7 @@ const DietChart = () => {
     <div className="w-full bg-slate-200 font-poppins">
       <div className="w-10/12 mx-auto flex justify-between">
         {/*  */}
-        {/*  FIRST CHART FROM BMI LESSER THAN 18.5 */}
+        {/*  FIRST CHART FOR BMI LESSER THAN 18.5 */}
 
         <div className=" w-3/12  hover:opacity-70 transition-opacity duration-300 ">
           <Link to={"/UnderWeight"} preventScrollReset={true}>
@@ -24,7 +24,7 @@ const DietChart = () => {
           </Link>
         </div>
 
-        {/*  SECOND CHART FROM BMI LESSER THAN 18.5 */}
+        {/*  SECOND CHART FOR HEALTHY BMI */}
 
         <div className="w-3/12  hover:opacity-70 transition-opacity duration-300 ">
           <Link to={"/HealthyWeight"}>
@@ -41,15 +41,19 @@ const DietChart = () => {
             </button>
           </Link>
         </div>
-        {/*  THIRD CHART FROM BMI LESSER THAN 18.5 */}
+        {/*  THIRD CHART FOR BMI GREATER THAN 25 */}
 
         <div className="w-3/12  hover:opacity-70 transition-opacity duration-300 ">
-          <h1 className=" text-center text-xl font-bold">Over weight Range</h1>
-          <img src="https://media.istockphoto.com/id/582256832/photo/donut-in-hand-obese-fat-boy.webp?b=1&s=612x612&w=0&k=20&c=WTSYi69hnb59O9_fNF2SBbo2ayCOLDobWKqIrpScIPo="></img>
-          <button className="bg-white text-blue-400 font-bold py-2 px-4">
-            {" "}
-            Know More
-          </button>
+          <Link to={"/OverWeight"}>
+            <h1 className=" text-center text-xl font-bold">
+              Over weight Range
+            </h1>
+            <img src="https://media.istockphoto.com/id/582256832/photo/donut-in-hand-obese-fat-boy.webp?b=1&s=612x612&w=0&k=20&c=WTSYi69hnb59O9_fNF2SBbo2ayCOLDobWKqIrpScIPo="></img>
+            <button className="bg-white text-blue-400 font-bold py-2 px-4">
+              {" "}
+              Know More
+            </button>
+          </Link>
         </div>
       </div>
     </div>
