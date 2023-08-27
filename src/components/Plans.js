@@ -4,9 +4,9 @@ const Plans = () => {
       <h1 className="text-4xl text-center text-white">
         We Provide Variet of Customized plans for everyone.
       </h1>
-      <div className=" py-12 w-9/12 flex flex-row justify-around mx-auto border border-red-500">
+      <div className=" py-12 w-9/12 flex flex-row justify-around mx-auto ">
         {/* FIRST PAYMENT CARD */}
-        <div className=" w-52 bg-white py-4 h-[23rem] px-4  rounded-sm">
+        <div className=" w-52 bg-white py-4 h-[23rem] px-4  rounded-sm hover:border hover:border-red-500 hover:scale-105 hover:rounded-xl transition-all duration-500">
           <div className="flex flex-col gap-2 text-center">
             <h1 className="text-xl font-extrabold text-red-500">Starter</h1>
             <p className="text-sm">Ideal solution for beginners</p>
@@ -28,7 +28,7 @@ const Plans = () => {
         </div>
 
         {/* SECOND PAYMENT CARD */}
-        <div className=" w-52 bg-white py-8 h-96 px-4 relative rounded-sm ">
+        <div className=" w-52 bg-white py-8 h-96 px-4 relative rounded-sm hover:border hover:border-green-500 hover:scale-105 hover:rounded-xl transition-all duration-500">
           <div className="bg-green-500 w-[8.5rem] text-sm py-1 text-white rounded-tl-full rounded-tr-full absolute top-2 -left-4 -rotate-[30deg] text-center">
             Best Value
           </div>
@@ -53,7 +53,7 @@ const Plans = () => {
         </div>
 
         {/* THIRD PAYMENT CARD */}
-        <div className=" w-52 bg-white py-4 h-[23rem] px-4  rounded-sm">
+        <div className=" w-52 bg-white py-4 h-[23rem] px-4  rounded-sm hover:border hover:border-yellow-500 hover:scale-105 hover:rounded-xl transition-all duration-500">
           <div className="flex flex-col gap-2 text-center">
             <h1 className="text-xl font-extrabold text-yellow-500">Ultimate</h1>
             <p className="text-sm">Perfect for professional Competitions.</p>
