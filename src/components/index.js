@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import UnderWeight from "./UnderWeight";
 import HealthyWeight from "./HealthWeight";
 import OverWeight from "./OverWeight";
+import Plans from "./Plans";
 
 const AppLayout = () => {
   return (
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/OverWeight",
         element: <OverWeight />,
+      },
+      {
+        path: "/Plans",
+        element: <Plans />,
       },
     ],
   },
