@@ -2,7 +2,7 @@ const Plans = () => {
   return (
     <div className="w-full font-poppins py-16 bg-orange-400">
       <h1 className="text-4xl text-center text-white">
-        We Provide Variet of Customized plans for everyone.
+        We Provide Variety of Customized plans for everyone.
       </h1>
       <div className=" py-12 w-9/12 flex flex-row justify-around mx-auto ">
         {/* FIRST PAYMENT CARD */}
